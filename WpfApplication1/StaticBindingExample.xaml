@@ -1,0 +1,10 @@
+﻿<Window x:Class="StaticBindingExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    Title="StaticBindingExample" Height="300" Width="300">
+    <Grid>
+        <Label Content="{Binding Source={x:Static sys:DateTime.Today}}" HorizontalAlignment="Left" Margin="66,63,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
